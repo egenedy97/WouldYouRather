@@ -1,0 +1,59 @@
+.navUser{
+  background: coral;
+  /* width: 250px; */
+  height: 50px;
+}
+
+.questions{
+  max-width: 600px;
+
+  .questionBox {
+    color: white;
+    &:hover{
+      text-decoration: none !important;
+    }
+    .author{
+      font-size: 20px;
+    }
+    .wouldRather{
+      font-size: 26px;
+    }
+    .option {
+      font-size: 26px;
+    }
+    .or{
+      font-size: 34px;
+    }
+  }
+}
+
+.form{
+  .or{
+    font-size: 50px;
+  }
+}
+
+.leaderboard{
+  font-size: 16px;
+  border-width: 20px !important;
+  color: white;
+  .index{
+    font-size: 40px;
+  }
+  .name{
+    font-size: 24px;
+  }
+  .number{
+    font-size: 42px;
+  }
+}
+
+
+.or{
+  font-size: 100px;
+}
+
+.loginCard {
+  border-width: 3px !important;
+  font-size: 20px;
+}

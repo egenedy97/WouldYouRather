@@ -1,17 +1,17 @@
-export const SET_AUTHED_USER = 'SET_AUTHED_USER'
-export const UNSET_AUTHED_USER = "UNSET_AUTHED_USER";
+export const LOGIN_AUTHED_USER  = 'LOGIN_AUTHED_USER'
+export const LOGOUT_AUTHED_USER = 'LOGOUT_AUTHED_USER'
 
-export function setAuthedUser (id) {
+export function loginAuthedUser(id, name, path) {
   return {
-    type: SET_AUTHED_USER,
+    type: LOGIN_AUTHED_USER,
     id,
+    name,
+    path,
   }
 }
 
-export function unSetAuthedUser()
-{
-  return{
-    type:UNSET_AUTHED_USER , 
-    id ,
+export function logoutAuthedUser() {
+  return {
+    type: LOGOUT_AUTHED_USER,
   }
 }

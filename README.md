@@ -1,10 +1,14 @@
-# Would You Rather Project
+# Project Description
 
-This is the starter code for the final assessment project for Udacity's React & Redux course.
+A web app to show and create polls in the form of "Would You Rather?". 
+The user has to be logged in to actively participate in the app. After voting in the poll, the user can see the statistics of the poll votes.
 
-The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
+A project for Udacity's React Nanodegree with a focus on React and Redux.
 
-Using the provided starter code, you'll build a React/Redux front end for the application. We recommend using the [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project.
+## How to start & use project
+
+Please use `npm install` and `npm start` to start the project.
+
 
 ## Data
 
