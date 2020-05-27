@@ -49,11 +49,11 @@ class Home extends Component {
         <div className='questions mx-auto'>
           {sortedPolls.map((question) => (
             <Link to={`/questions/${question.id}`} className='questionBox' key={question.id}>
-              <div class="card text-center">
-                <div class="card-header text-monospace text-muted">
+              <div className="card text-center">
+                <div className="card-header text-monospace text-muted">
                   Would you Rather ?
          </div>
-                <table class="table table-borderless">
+                <table className="table table-borderless">
                   <thead>
                     <tr>
                       <th scope="col">Option 1</th>
